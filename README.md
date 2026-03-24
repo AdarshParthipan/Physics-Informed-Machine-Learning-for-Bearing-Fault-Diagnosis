@@ -52,11 +52,8 @@ This repository aims for strict isolation of execution logic. Presentation files
    pip install -r requirements.txt
    ```
 
-3. **Data Setup:**
-   - Create a `Dataset/` folder in the root directory.
-   - Place the necessary `CWRU` MATLAB `.mat` files inside the `Dataset/` folder. The required classes are `Normal`, `IR021`, `B021`, and `OR021@6`.
-
-4. **Execute the pipeline:**
+3. **Execute the pipeline:**
+   The required `CWRU` dataset files and the `Results/` folder are already included in this repository.
    ```bash
    python main_pipeline.py
    ```
