@@ -11,5 +11,3 @@ __pycache__/
 *.pyc
 
 # Data and large output folders (should not be in git)
-Dataset/
-Results/
